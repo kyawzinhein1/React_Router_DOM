@@ -1,5 +1,4 @@
-h1,
-span {
+h1{
   text-align: center;
   color: cornflowerblue;
 }
@@ -7,9 +6,13 @@ span {
 nav {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: right;
+  padding-right: 30px;
+  margin: 20px auto;
   color: cornflowerblue;
-  gap: 10px;
+  gap: 20px;
+  font-weight: 900;
+  font-size: 20px;
 }
 
 nav a {
@@ -19,8 +22,9 @@ nav a {
 
 a.active {
   font-weight: 800;
-  font-size: 18px;
+  font-size: 21px;
   font-style: italic;
+  color: brown;
 }
 
 button {
@@ -46,14 +50,33 @@ div {
   width: 50%;
   margin: auto;
   background-color: cornflowerblue;
-  padding: 10px 10px;
+  padding: 10px 20px;
   margin-top: 15px;
   border-radius: 10px;
   cursor: pointer;
   text-decoration: none;
+  text-align: justify;
+}
+
+.card .title{
+  color:#fff;
+}
+
+.card p, span{
+  text-align: left;
+  color: gray;
+}
+
+.note{
+  display: flex;
+  align-items: center;
+  gap: 5px;
 }
 
 a{
-    color: #fff;
     text-decoration: none;
+}
+
+h4{
+  color: gray;
 }
